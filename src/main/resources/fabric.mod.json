@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "herzen",
+  "version": "${version}",
+  "name": "Herzen über Nametag",
+  "description": "Zeigt die aktuellen Herzen von Spielern über ihrem Nametag an.",
+  "environment": "client",
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25"
+  },
+  "mixins": ["herzen.mixins.json"]
+}

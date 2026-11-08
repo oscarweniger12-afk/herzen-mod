@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "de.herzen.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": ["LivingEntityRendererMixin"],
+  "injectors": { "defaultRequire": 1 }
+}
